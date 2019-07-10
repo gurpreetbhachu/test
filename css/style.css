@@ -252,7 +252,7 @@ body {
     height: 44px;
     background-repeat: repeat-x;
     z-index: 1;
-    background-image: url(../img/mis/brush.svg);
+    background-image: url(img/mis/brush.svg);
 }
 
 .about-container {
