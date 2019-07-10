@@ -1,0 +1,95 @@
+
+/* ++++ responsive ++++ */
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 768px) and (max-width: 979px) {}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 480px) {
+    .nav-mob{
+        display: block;
+        background: #05396b;
+        transition: 1s ease-in-out;
+        height: 80px;
+        border-top: 1px solid #0b5ba7;
+    }
+    .nav-mob.active{
+        transform: translateY(120px);
+    }
+
+    .navbar{
+        list-style-type: none;
+    }
+    .navbar .nav-item a{
+        color: #ededed;
+        font-size: 20px;
+    }
+    .navbar .nav-item p{
+        font-size: 14px;
+        color: #ededed;
+        font-weight: 100;
+    }
+
+    .home img {
+        width: 250px;
+    }
+    .home h2 {
+        font-size: 22px;
+    }
+    .home a {
+        padding: 5px 20px;
+        color: #ededed;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+        margin: 15px;
+    }
+
+    .image {
+        margin-left: 55px;
+        display: none;
+    }
+
+    .main-profile-pic {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+        width: auto;
+    }
+
+    .main-mob-profile-pic{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .myicon{
+        width: 200px;
+    }
+
+    .skill-mob-box{
+        border-radius: 25px;
+        margin: 10px 10px;
+        padding: 30px 30px;
+        background-color: #fafafa;
+        box-shadow: 2px 20px 26px rgba(0, 0, 0, .2);
+    }
+    .skill-mob-box i{
+        display: none;
+    }
+    .skill-box {
+        box-shadow: none;
+    }
+
+    .xx{
+        margin-top: 50px;
+    }
+
+    .footer{
+        padding-bottom: 80px;
+    }
+}
